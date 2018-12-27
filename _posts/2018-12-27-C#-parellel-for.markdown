@@ -2,7 +2,7 @@
 layout: post
 title:  "C# Parallel For"
 date:   2018-12-27 18:19:13 +0800
-categories: jekyll update
+categories: C#
 ---
 {% highlight C# %}
         var lines = File.ReadAllLines("D:\\20180626CPSAU01.DAT");
