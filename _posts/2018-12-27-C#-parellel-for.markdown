@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Insertion Sort"
+title:  "C# Parallel For"
 date:   2018-12-27 18:19:13 +0800
 categories: jekyll update
 ---
@@ -13,6 +13,5 @@ categories: jekyll update
                  Interlocked.Add(ref totalSize, 1);
                  Console.WriteLine(totalSize);
                  Thread.Sleep(5000);
-
                });
 {% endhighlight %}
