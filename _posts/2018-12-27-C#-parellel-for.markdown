@@ -20,15 +20,10 @@ categories: C#
 參考來源https://github.com/Microsoft/referencesource/blob/master/mscorlib/system/threading/Tasks/Parallel.cs
 Parallel.cs 檔包含一個類別 ParallelOptions
 {% highlight C# %}
+
     /// <summary>
-    /// Stores options that configure the operation of methods on the 
-    /// <see cref="T:System.Threading.Tasks.Parallel">Parallel</see> class.
-    /// </summary>
-    /// <remarks>
-    /// By default, methods on the Parallel class attempt to utilize all available processors, are non-cancelable, and target
-    /// the default TaskScheduler (TaskScheduler.Default). <see cref="ParallelOptions"/> enables
-    /// overriding these defaults.
-    /// </remarks>
+    /// 設定 Parallel 方法執行時的選項
+    /// </summary>    
     public class ParallelOptions
     {
         private TaskScheduler m_scheduler;
@@ -37,8 +32,7 @@ Parallel.cs 檔包含一個類別 ParallelOptions
 
         /// <summary>
         /// 初始化ParallelOptions類別
-        /// </summary>        
-        /// This constructor initializes the instance with default values.  <see cref="MaxDegreeOfParallelism"/>
+        /// </summary>                
         /// MaxDegreeOfParallelism 設成 -1, 設定平行數無上限
         /// CancellationToken 設成 non-cancelable token
         /// TaskScheduler 設成 default scheduler (TaskScheduler.Default)
@@ -48,12 +42,7 @@ Parallel.cs 檔包含一個類別 ParallelOptions
             m_maxDegreeOfParallelism = -1;
             m_cancellationToken = CancellationToken.None;
         }
-
-        /// <summary>
-        /// Gets or sets the <see cref="T:System.Threading.Tasks.TaskScheduler">TaskScheduler</see> 
-        /// associated with this <see cref="ParallelOptions"/> instance. Setting this property to null
-        /// indicates that the current scheduler should be used.
-        /// </summary>
+        
         public TaskScheduler TaskScheduler
         {
             get { return m_scheduler; }
