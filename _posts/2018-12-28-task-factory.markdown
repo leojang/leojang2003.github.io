@@ -11,6 +11,8 @@ https://blog.darkthread.net/blog/net4-task/
 
 TaskFactory.StartNew
 {% highlight C# %}
-public System.Threading.Tasks.Task StartNew (Action<object> action, object state, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler);        
+public System.Threading.Tasks.Task StartNew 
+(Action<object> action, object state, System.Threading.CancellationToken cancellationToken, 
+  System.Threading.Tasks.TaskCreationOptions creationOptions, System.Threading.Tasks.TaskScheduler scheduler);        
 {% endhighlight %}
 
