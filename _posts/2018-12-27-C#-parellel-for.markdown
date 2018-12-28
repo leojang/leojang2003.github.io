@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C# Parallel For"
-date:   2018-12-27 18:19:13 +0800
+date:   2018-12-28 10:14:13 +0800
 categories: C#
 ---
 {% highlight C# %}
@@ -49,15 +49,12 @@ namespace System.Threading.Tasks
         private CancellationToken m_cancellationToken;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ParallelOptions"/> class.
-        /// </summary>
-        /// <remarks>
+        /// 初始化ParallelOptions類別
+        /// </summary>        
         /// This constructor initializes the instance with default values.  <see cref="MaxDegreeOfParallelism"/>
-        /// is initialized to -1, signifying that there is no upper bound set on how much parallelism should
-        /// be employed.  <see cref="CancellationToken"/> is initialized to a non-cancelable token,
-        /// and <see cref="TaskScheduler"/> is initialized to the default scheduler (TaskScheduler.Default).  
-        /// All of these defaults may be overwritten using the property set accessors on the instance.
-        /// </remarks>
+        /// MaxDegreeOfParallelism 設成 -1, 設定平行數無上限
+        /// CancellationToken 設成 non-cancelable token
+        /// TaskScheduler 設成 default scheduler (TaskScheduler.Default)
         public ParallelOptions()
         {
             m_scheduler = TaskScheduler.Default;
