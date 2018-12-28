@@ -69,21 +69,7 @@ Parallel.cs 檔包含一個類別 ParallelOptions
                 else return m_scheduler;
             }
         }
-
-        /// <summary>
-        /// Gets or sets the maximum degree of parallelism enabled by this ParallelOptions instance.
-        /// </summary>
-        /// <remarks>
-        /// The <see cref="MaxDegreeOfParallelism"/> limits the number of concurrent operations run by <see
-        /// cref="T:System.Threading.Tasks.Parallel">Parallel</see> method calls that are passed this
-        /// ParallelOptions instance to the set value, if it is positive. If <see
-        /// cref="MaxDegreeOfParallelism"/> is -1, then there is no limit placed on the number of concurrently
-        /// running operations.
-        /// </remarks>
-        /// <exception cref="T:System.ArgumentOutOfRangeException">
-        /// The exception that is thrown when this <see cref="MaxDegreeOfParallelism"/> is set to 0 or some
-        /// value less than -1.
-        /// </exception>
+        
         public int MaxDegreeOfParallelism
         {
             get { return m_maxDegreeOfParallelism; }
@@ -95,17 +81,10 @@ Parallel.cs 檔包含一個類別 ParallelOptions
             }
         }
 
-        /// <summary>
-        /// Gets or sets the <see cref="T:System.Threading.CancellationToken">CancellationToken</see>
-        /// associated with this <see cref="ParallelOptions"/> instance.
-        /// </summary>
-        /// <remarks>
-        /// Providing a <see cref="T:System.Threading.CancellationToken">CancellationToken</see>
-        /// to a <see cref="T:System.Threading.Tasks.Parallel">Parallel</see> method enables the operation to be
+        /// Providing a CancellationToken
+        /// to a Parallel method enables the operation to be
         /// exited early. Code external to the operation may cancel the token, and if the operation observes the
         /// token being set, it may exit early by throwing an
-        /// <see cref="T:System.OperationCanceledException"/>.
-        /// </remarks>
         public CancellationToken CancellationToken
         {
             get { return m_cancellationToken; }
@@ -130,7 +109,6 @@ Parallel.cs 檔包含一個類別 ParallelOptions
                 return rval;
             }
         }
-    }
-                
+    }                
 
 {% endhighlight %}
