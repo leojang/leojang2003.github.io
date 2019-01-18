@@ -2,7 +2,7 @@
 layout: post
 title:  "FreeCodeCamp HTML5 Notes"
 date:   2019-01-18 14:04:13 +0800
-categories: freecodecamp
+categories: html
 tag: [freecodecamp, html]
 ---
 
