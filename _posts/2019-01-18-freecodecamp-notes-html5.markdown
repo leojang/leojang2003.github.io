@@ -25,7 +25,14 @@ These tags make your HTML easier to read, and also help with Search Engine Optim
 <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
 {% endhighlight html %}
 
-## anchor <a>
+## anchor
 {% highlight html %}
 <a href="http://freecatphotoapp.com">cat photos</a>
 {% endhighlight html %}
+  
+ ## internal anchor
+ {% highlight html %}
+ <a href="#contacts-header">Contacts</a>
+ ...
+ <h2 id="contacts-header">Contacts</h2>
+ {% endhighlight html %}
