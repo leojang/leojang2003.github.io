@@ -8,8 +8,8 @@ tags: html
 
 ## main
 
-HTML5 introduces more descriptive HTML tags. These include header, footer, nav, video, article, section and others.
-These tags make your HTML easier to read, and also help with Search Engine Optimization (SEO) and accessibility.
+HTML5 引進了 descriptive HTML tags. 包含 header, footer, nav, video, article, section 及其他標籤。
+這些標籤同時增進了可讀性與SEO
 
 {% highlight html %}
 <h2>CatPhotoApp</h2>
@@ -27,12 +27,14 @@ These tags make your HTML easier to read, and also help with Search Engine Optim
 
 ## anchor
 {% highlight html %}
-<a href="http://freecatphotoapp.com">cat photos</a>
+<a href="http://freecatphotoapp.com" target="_blank>cat photos</a>
 {% endhighlight html %}
+
+target="_blank 是用新分頁開啟連結
   
- ## internal anchor
- {% highlight html %}
- <a href="#contacts-header">Contacts</a>
- ...
- <h2 id="contacts-header">Contacts</h2>
- {% endhighlight html %}
+## internal anchor
+{% highlight html %}
+<a href="#contacts-header">Contacts</a>
+...
+<h2 id="contacts-header">Contacts</h2>
+{% endhighlight html %}
