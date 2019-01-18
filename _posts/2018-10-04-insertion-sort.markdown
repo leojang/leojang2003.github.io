@@ -2,7 +2,9 @@
 layout: post
 title:  "Insertion Sort"
 date:   2018-10-09 00:43:13 +0800
-categories: jekyll update
+categories: Computer-Science
+tags: Algorithm
+
 ---
 {% highlight C# %}
         public static void InsertionSort(int[] input)
