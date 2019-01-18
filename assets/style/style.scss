@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$font-stack: Helvetica, sans-serif;
+
+// Styles
+.body {
+  font-family: $font-stack;  
+}
