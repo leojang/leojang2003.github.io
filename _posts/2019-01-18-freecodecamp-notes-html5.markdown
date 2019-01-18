@@ -2,7 +2,7 @@
 layout: post
 title:  "FreeCodeCamp HTML5 Notes"
 date:   2019-01-18 14:04:13 +0800
-categories: front-end
+categories: Front-End
 tags: html
 ---
 
@@ -18,10 +18,4 @@ These tags make your HTML easier to read, and also help with Search Engine Optim
 </main>
 {% endhighlight html %}
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
