@@ -2,8 +2,8 @@
 layout: post
 title:  "FreeCodeCamp HTML5 Notes"
 date:   2019-01-18 14:04:13 +0800
-categories: learning
-tags: freecodecamp, html
+categories: front-end
+tags: html
 ---
 
 HTML5 introduces more descriptive HTML tags. These include header, footer, nav, video, article, section and others.
