@@ -17,3 +17,10 @@ These tags make your HTML easier to read, and also help with Search Engine Optim
 </main>
 {% endhighlight html %}
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
