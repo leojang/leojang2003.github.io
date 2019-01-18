@@ -11,7 +11,7 @@ tags: html
 HTML5 introduces more descriptive HTML tags. These include header, footer, nav, video, article, section and others.
 These tags make your HTML easier to read, and also help with Search Engine Optimization (SEO) and accessibility.
 
-{% highlight html linenos %}
+{% highlight html %}
 <h2>CatPhotoApp</h2>
 <main>
 <p>Something</p>
@@ -21,6 +21,11 @@ These tags make your HTML easier to read, and also help with Search Engine Optim
 {% endhighlight html %}
 
 ## img
-{% highlight html linenos %}
+{% highlight html %}
 <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+{% endhighlight html %}
+
+## anchor <a>
+{% highlight html %}
+<a href="http://freecatphotoapp.com">cat photos</a>
 {% endhighlight html %}
