@@ -20,4 +20,7 @@ These tags make your HTML easier to read, and also help with Search Engine Optim
 </main>
 {% endhighlight html %}
 
-
+## img
+{% highlight html linenos %}
+<img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+{% endhighlight html %}
