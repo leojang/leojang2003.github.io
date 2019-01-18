@@ -15,5 +15,5 @@ These tags make your HTML easier to read, and also help with Search Engine Optim
 
 <p>Something
 </main>
-{% endhighlight %}
+{% endhighlight html %}
 
