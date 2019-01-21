@@ -5,6 +5,11 @@
 $font-stack: "Source Code Pro", "微軟正黑體", "Microsoft JhengHei";
 
 // Styles
+ .a {
+   font-family: $font-stack !important;    
+ }
+
+// Styles
  .p {
    font-family: $font-stack !important;    
  }
