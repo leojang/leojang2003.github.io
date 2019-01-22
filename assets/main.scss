@@ -3,14 +3,14 @@
 
 //@import "{{ site.theme }}";
 @import "minima";
-$font-stack: "Source Code Pro", "微軟正黑體", "Microsoft JhengHei";
+//$font-stack: "Source Code Pro", "微軟正黑體", "Microsoft JhengHei";
 
 // Styles
  .a {
-   font-family: $font-stack !important;    
+   font-family: "Source Code Pro", "微軟正黑體", "Microsoft JhengHei" !important;    
  }
 
 // Styles
  .p {
-   font-family: $font-stack !important;    
+   font-family: "Source Code Pro", "微軟正黑體", "Microsoft JhengHei" !important;    
  }
