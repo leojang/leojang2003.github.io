@@ -38,3 +38,8 @@ target="_blank 是用新分頁開啟連結
 ...
 <h2 id="contacts-header">Contacts</h2>
 {% endhighlight html %}
+
+## Turn an Image into a Link
+{% highlight html %}
+<a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+{% endhighlight html %}
