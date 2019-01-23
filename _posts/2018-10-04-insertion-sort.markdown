@@ -7,6 +7,8 @@ tags: Algorithm
 
 ---
 
+Insertion sort pseudo code looks like this
+
 {% highlight C# %}
 //mark first element as sorted
 
