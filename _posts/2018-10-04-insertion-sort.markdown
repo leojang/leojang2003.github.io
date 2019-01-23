@@ -6,7 +6,7 @@ categories: Computer-Science
 tags: Algorithm
 
 ---
-
+{% highlight C# %}
 mark first element as sorted
 
 for each unsorted element X
@@ -20,6 +20,7 @@ for each unsorted element X
       move sorted element to the right by 1
 
     break loop and insert X here
+{% endhighlight %}
 
 {% highlight C# %}
         public static void InsertionSort(int[] input)
