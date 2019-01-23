@@ -6,21 +6,23 @@ categories: Computer-Science
 tags: Algorithm
 
 ---
+
 {% highlight C# %}
-mark first element as sorted
+//mark first element as sorted
 
-for each unsorted element X
+//for each unsorted element X
 
-  'extract' the element X
+//  'extract' the element X
 
-  for j = lastSortedIndex down to 0
+//  for j = lastSortedIndex down to 0
 
-    if current element j > X
+//    if current element j > X
 
-      move sorted element to the right by 1
+//      move sorted element to the right by 1
 
-    break loop and insert X here
+//    break loop and insert X here
 {% endhighlight %}
+
 
 {% highlight C# %}
         public static void InsertionSort(int[] input)
